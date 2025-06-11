@@ -1,4 +1,4 @@
-phony: all
+.PHONY: all
 
 all:
-  sudo mv test.sh /usr/local/bin/test.sh
+	@sudo mv test.sh /usr/local/bin/test.sh
